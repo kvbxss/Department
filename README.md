@@ -15,38 +15,38 @@ IP shown on the picture, Subnet masks default
 
 
 ## SSH Configuration
-•	Switch(config)# hostname s1
-•	s1(config)# enable secret haslo
+- Switch(config)# hostname s1
+- s1(config)# enable secret haslo
 
 
 ## Access Passwords Configuration
 
-•	Switch>enable 
-•	Switch#configure terminal 
-•	Switch(config)#line console 0 
-•	Switch(config-line)#password cisco 
-•	Switch(config-line)#login
-•	Switch(config-line)#exit
-•	Switch(config)#enable password cisco 
-•	Switch(config)#line vty 0 15 
-•	Switch(config-line)#password cisco 
-•	Switch(config-line)#login 
+-	Switch>enable 
+-	Switch#configure terminal 
+-	Switch(config)#line console 0 
+-	Switch(config-line)#password cisco 
+-	Switch(config-line)#login
+-	Switch(config-line)#exit
+-	Switch(config)#enable password cisco 
+-	Switch(config)#line vty 0 15 
+-	Switch(config-line)#password cisco 
+-	Switch(config-line)#login 
 
 
 ## Port Security Configuration
 
-•	Switch(config)#interface fastEthernet 0/1 
-•	Switch(config-if)#switchport mode access port security
-•	Switch(config-if)#switchport port-security
-•	Switch(config-if)#switchport port-security mac-address sticky
-•	Switch(config-if)#switchport port-security maximum 1 
+-	Switch(config)#interface fastEthernet 0/1 
+-	Switch(config-if)#switchport mode access port security
+-	Switch(config-if)#switchport port-security
+-	Switch(config-if)#switchport port-security mac-address sticky
+-	Switch(config-if)#switchport port-security maximum 1 
 
 ## MOTD
 ### Message of the Day Banner
 
-•	Switch>enable 
-•	Switch#configure terminal 
-•	Switch(config)#banner motd x 
+-	Switch>enable 
+-	Switch#configure terminal 
+-	Switch(config)#banner motd x 
 
 
 
