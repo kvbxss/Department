@@ -2,12 +2,12 @@
 
 # What we need?
 
-*10 PCs
-*5 Switches
-*3 Routers
-*One Server
-*2 Wireless Routers
-*4 Laptops
+- 10 PCs
+- 5 Switches
+- 3 Routers
+- One Server
+- 2 Wireless Routers
+- 4 Laptops
 
 # IP and Subnet Mask Configuration
 IP shown on the picture, Subnet masks default
